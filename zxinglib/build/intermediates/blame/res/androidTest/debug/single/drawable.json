@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/tianhuan/git_workspace/demo/zxinglib/build/intermediates/res/merged/androidTest/debug/drawable/scan_button_background.xml",
+        "source": "/home/tianhuan/git_workspace/demo/zxinglib/build/intermediates/bundles/debug/res/drawable/scan_button_background.xml"
+    },
+    {
+        "merged": "/home/tianhuan/git_workspace/demo/zxinglib/build/intermediates/res/merged/androidTest/debug/drawable/launcher_icon.png",
+        "source": "/home/tianhuan/git_workspace/demo/zxinglib/build/intermediates/bundles/debug/res/drawable/launcher_icon.png"
+    }
+]

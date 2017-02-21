@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="高斯模糊效果"
+            android:textColor="@color/color_allcontent_text"
+            android:textSize="@dimen/dimen_all_content_text_size" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/blur_fresco_img"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            fresco:placeholderImage="@drawable/default_img"
+            fresco:placeholderImageScaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="gif图片"
+            android:textColor="@color/color_allcontent_text"
+            android:textSize="@dimen/dimen_all_content_text_size" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/gif_fresco_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            fresco:placeholderImage="@drawable/default_img"
+            fresco:placeholderImageScaleType="centerCrop" />
+
+
+        <!--actualImageScaleType  设置图片缩放. 通常使用focusCrop,该属性值会通过算法把人头像放在中间-->
+        <!--placeholderImage 下载成功之前显示的图片-->
+        <!--failureImage 加载失败的时候显示的图片-->
+        <!--retryImage 加载失败,提示用户点击重新加载的图片(会覆盖failureImage的图片)-->
+        <!--progressBarImage 提示用户正在加载,和加载进度无关
+        fresco:progressBarImage="@drawable/progress_bar"// 提示用户正在加载,和加载进度无关
+        fresco:progressBarImageScaleType="centerInside"
+        fresco:progressBarAutoRotateInterval="1000"-->
+
+        <!--
+         fresco:roundAsCircle="false"// 是不是设置圆圈
+        fresco:roundedCornerRadius="1dp"// 圆角角度,180的时候会变成圆形图片
+        fresco:roundTopLeft="true"
+        fresco:roundTopRight="false"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="true"-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="圆形的图片"
+            android:textColor="@color/color_allcontent_text"
+            android:textSize="@dimen/dimen_all_content_text_size" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/circle_fresco_img"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:failureImage="@drawable/error_img"
+            fresco:failureImageScaleType="centerInside"
+            fresco:placeholderImage="@drawable/default_img"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImage="@drawable/retry_img"
+            fresco:retryImageScaleType="centerCrop"
+            fresco:roundAsCircle="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="左边带圆角的图片"
+            android:textColor="@color/color_allcontent_text"
+            android:textSize="@dimen/dimen_all_content_text_size" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/left_circle_fresco_img"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:failureImage="@drawable/error_img"
+            fresco:failureImageScaleType="centerInside"
+            fresco:placeholderImage="@drawable/default_img"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:retryImage="@drawable/retry_img"
+            fresco:retryImageScaleType="centerCrop"
+            fresco:roundAsCircle="false"
+            fresco:roundBottomLeft="true"
+            fresco:roundBottomRight="false"
+            fresco:roundTopLeft="true"
+            fresco:roundTopRight="false"
+            fresco:roundedCornerRadius="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="带边框的图片"
+            android:textColor="@color/color_allcontent_text"
+            android:textSize="@dimen/dimen_all_content_text_size" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/border_circle_fresco"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:placeholderImage="@drawable/default_img"
+            fresco:placeholderImageScaleType="centerCrop"
+            fresco:roundAsCircle="true"
+            fresco:roundingBorderColor="#fff3cf44"
+            fresco:roundingBorderWidth="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="加载图片时fade动画"
+            android:textColor="@color/color_allcontent_text"
+            android:textSize="@dimen/dimen_all_content_text_size" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/anim_fade_fresco"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            fresco:fadeDuration="3000"
+            fresco:placeholderImage="@drawable/default_img"
+            fresco:placeholderImageScaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="加载res下的图片"
+            android:textColor="@color/color_allcontent_text"
+            android:textSize="@dimen/dimen_all_content_text_size" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/local_fresco_img"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            fresco:placeholderImage="@drawable/default_img"
+            fresco:placeholderImageScaleType="centerCrop" />
+
+
+    </LinearLayout>
+
+</ScrollView>

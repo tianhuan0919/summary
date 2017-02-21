@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="ObjectAnimator Demo"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+    <ImageView
+        android:id="@+id/objectanimator_anim_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beautiful" />
+
+    <TextView
+        android:id="@+id/alpha_property_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="PROPERTY ANIM CLICK ME"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="AnimationSet Demo"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+    <ImageView
+        android:id="@+id/animset_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_img" />
+
+</LinearLayout>

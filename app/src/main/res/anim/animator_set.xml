@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:propertyName="alpha"
+        android:duration="3000"
+        android:valueFrom="0.5f"
+        android:valueTo="1.0f"/>
+    <objectAnimator
+        android:propertyName="rotation"
+        android:duration="3000"
+        android:valueFrom="0.0f"
+        android:valueTo="360.0f"/>
+    <objectAnimator
+        android:propertyName="rotationX"
+        android:duration="3000"
+        android:valueFrom="0.0f"
+        android:valueTo="360.0f"/>
+    <objectAnimator
+        android:propertyName="rotationY"
+        android:duration="3000"
+        android:valueFrom="0.0f"
+        android:valueTo="360.0f"/>
+
+</set>

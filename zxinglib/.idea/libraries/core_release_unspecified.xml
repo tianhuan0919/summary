@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="core-release-unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/freemarker.jar!/" />
+      <root url="file://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/res" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/mid-sdk-2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/slf4j-api-1.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/pollexor-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/Android_Location_V1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/AMap_Services_V2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/ftp4j-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/httpmime-4.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/greendao-generator-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/PureMVC_Java_0_3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/Android_2DMapApi_V2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/Xg_sdk_v2.37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/greendao-1.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/TalkingDataAnalytics_V1.2.61.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/wup-1.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../teacher/build/intermediates/exploded-aar/huivobao-teacher-android/core-release/unspecified/libs/slf4j-jcl-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

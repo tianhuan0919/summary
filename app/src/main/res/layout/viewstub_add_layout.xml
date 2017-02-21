@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="ViewStub Demo"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="ViewStub 是一个没有尺寸大小并且不会在布局中嵌套或渲染任何东西的轻量级视图， 因此在视图层次展现或隐藏他的代价非常小"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="当ViewStub可见或者调用inflate函数时，才会加载布局资源文件"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="ViewStub注意事项： 1. 在渲染的布局中不支持merge标签 2. viewstub。inflate方法不能被调用两次"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="ViewStub 本身就是一个view的子类"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="ViewStub 类似与inflate 区别： inflate默认直接加载布局资源文件 viewstub是需要时才动态的加载"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="ViewStub Demo"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+</LinearLayout>

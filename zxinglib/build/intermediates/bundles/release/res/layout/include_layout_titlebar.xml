@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/possible_result_points"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:textColor="@color/status_text"
+        android:text="扫码"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/titlebar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:textColor="@color/status_text"
+        android:text="返回"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/titlebar_right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:textColor="@color/status_text"
+        android:text="相册"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"/>
+
+</RelativeLayout>

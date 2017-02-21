@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ##### zxing-lib ##### -->
+    <string name="zxing_no_net_alert">无网络连接,请连接网络后再扫描!</string>
+    <string name="zxing_scan_msg_des1">将二维码放入扫描框内</string>
+    <string name="zxing_scan_msg_des2">即可自动开始扫描</string>
+
+</resources>

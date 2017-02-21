@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tianhuan.demo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Fresco Demo"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+    <TextView
+        android:id="@+id/circle_fresco_btn"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="Circle Fresco"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+    <TextView
+        android:id="@+id/clear_fresco_cache"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="清除Fresco缓存"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+    <TextView
+        android:id="@+id/viewstub_demo"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="ViewStub Demo"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+    <TextView
+        android:id="@+id/zxing_demo"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="ZXING Demo"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+    <TextView
+        android:id="@+id/anim_demo"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Animation Demo"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+
+</LinearLayout>
