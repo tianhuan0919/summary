@@ -9,7 +9,8 @@ import android.view.Window;
 import android.widget.Toast;
 
 import com.example.tianhuan.demo.test_anim.AnimDemo;
-import com.example.tianhuan.demo.test_zxing.HScanActivity;
+import com.example.tianhuan.demo.test_fresco.activities.BitmapGridViewActivity;
+import com.example.tianhuan.demo.test_fresco.activities.CircleFrescoActivity;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.google.zxing.client.android.CaptureActivity;
 import com.google.zxing.client.android.Intents;
@@ -31,6 +32,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.clear_fresco_cache).setOnClickListener(this);
         findViewById(R.id.viewstub_demo).setOnClickListener(this);
         findViewById(R.id.zxing_demo).setOnClickListener(this);
+        findViewById(R.id.local_album).setOnClickListener(this);
     }
 
     @Override
@@ -46,6 +48,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 Fresco.getImagePipeline().clearDiskCaches();
                 // 清空内存缓存
                 Fresco.getImagePipeline().clearMemoryCaches();*/
+                break;
+            case R.id.local_album:
+                startActivity(new Intent(MainActivity.this, BitmapGridViewActivity.class));
                 break;
             case R.id.viewstub_demo:
                 startActivity(new Intent(MainActivity.this, ViewStubDemo.class));

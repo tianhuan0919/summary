@@ -1,11 +1,12 @@
-package com.example.tianhuan.demo;
+package com.example.tianhuan.demo.test_fresco.activities;
 
 import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
 
-import com.example.tianhuan.demo.utils.ImageLoader;
-import com.example.tianhuan.demo.utils.PhotoUtils;
+import com.example.tianhuan.demo.R;
+import com.example.tianhuan.demo.test_fresco.utils.ImageLoader;
+import com.example.tianhuan.demo.test_fresco.utils.PhotoUtils;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 /**
