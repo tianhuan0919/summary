@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.example.tianhuan.demo.test_anim.AnimDemo;
 import com.example.tianhuan.demo.test_fresco.activities.BitmapGridViewActivity;
 import com.example.tianhuan.demo.test_fresco.activities.CircleFrescoActivity;
+import com.example.tianhuan.demo.test_recyclerview.activities.RecyclerViewDemoActivity;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.google.zxing.client.android.CaptureActivity;
 import com.google.zxing.client.android.Intents;
@@ -33,6 +34,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.viewstub_demo).setOnClickListener(this);
         findViewById(R.id.zxing_demo).setOnClickListener(this);
         findViewById(R.id.local_album).setOnClickListener(this);
+        findViewById(R.id.anim_demo).setOnClickListener(this);
+        findViewById(R.id.recyclerview_demo).setOnClickListener(this);
     }
 
     @Override
@@ -60,6 +63,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.anim_demo:
                 startActivity(new Intent(MainActivity.this, AnimDemo.class));
+                break;
+            case R.id.recyclerview_demo:
+                startActivity(new Intent(MainActivity.this, RecyclerViewDemoActivity.class));
                 break;
         }
 

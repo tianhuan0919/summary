@@ -37,6 +37,15 @@
 
         <activity android:name=".test_fresco.activities.BitmapGridViewActivity"
             android:screenOrientation="portrait"/>
+
+        <activity android:name=".test_recyclerview.activities.ListViewStyleActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".test_recyclerview.activities.WaterfallFlowStyleActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".test_recyclerview.activities.RecyclerViewDemoActivity"
+            android:screenOrientation="portrait"/>
         <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data

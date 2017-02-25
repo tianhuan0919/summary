@@ -72,8 +72,17 @@
         android:layout_height="44dp"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:gravity="center"
-        android:onClick="onClick"
         android:text="Animation Demo"
+        android:textColor="@color/color_allcontent_text"
+        android:textSize="@dimen/dimen_all_content_text_size" />
+
+    <TextView
+        android:id="@+id/recyclerview_demo"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:text="RecyclerView Demo"
         android:textColor="@color/color_allcontent_text"
         android:textSize="@dimen/dimen_all_content_text_size" />
 
