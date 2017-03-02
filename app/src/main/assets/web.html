@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>webview与js交互</title>
+<script>
+	function MyFunction(){
+		document.getElementById("click_btn").innerHTML="FINE";
+	}
+
+	function clickBtn(){
+        window.Android_Action.jsCallAndroid();
+	}
+</script>
+</head>
+<body>
+<p id="demo"></p>
+<br/>
+<br/>
+<button id="click_btn" onclick="clickBtn()">CLICK ME</button>
+</body>
+</html>
