@@ -4,12 +4,14 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.tianhuan.demo.R;
 import com.google.gson.Gson;
 
 import org.json.JSONObject;
@@ -21,11 +23,14 @@ import org.json.JSONObject;
 public class TestGsonActivity extends Activity {
 
     private String TAG = "TestGsonActivity#";
+    private TextView mTvShowResult;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.ac_test_gson);
 
+        mTvShowResult = (TextView) findViewById(R.id.show_reslut);
         volleyGet(this, "http://192.168.111.4/t.php?user_name=th&type=android");
     }
 
@@ -41,6 +46,8 @@ public class TestGsonActivity extends Activity {
                 //
                 TestModel model = new Gson().fromJson(jsonObject.toString(), TestModel.class);
                 Log.d(TAG, model.toString());
+
+                mTvShowResult.setText(model.toString());
             }
         }, new Response.ErrorListener() {
             @Override

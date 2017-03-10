@@ -39,6 +39,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.anim_demo).setOnClickListener(this);
         findViewById(R.id.recyclerview_demo).setOnClickListener(this);
         findViewById(R.id.webview_demo).setOnClickListener(this);
+        findViewById(R.id.gson_demo).setOnClickListener(this);
     }
 
     @Override
@@ -71,7 +72,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(MainActivity.this, RecyclerViewDemoActivity.class));
                 break;
             case R.id.webview_demo:
-                //startActivity(new Intent(MainActivity.this ,WebViewDemo.class));
+                startActivity(new Intent(MainActivity.this ,WebViewDemo.class));
+                break;
+            case R.id.gson_demo:
                 startActivity(new Intent(MainActivity.this, TestGsonActivity.class));
                 break;
         }
