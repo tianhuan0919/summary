@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.example.tianhuan.demo.test_anim.AnimDemo;
 import com.example.tianhuan.demo.test_fresco.activities.BitmapGridViewActivity;
 import com.example.tianhuan.demo.test_fresco.activities.CircleFrescoActivity;
+import com.example.tianhuan.demo.test_gson.TestGsonActivity;
 import com.example.tianhuan.demo.test_recyclerview.activities.RecyclerViewDemoActivity;
 import com.example.tianhuan.demo.test_webview.WebViewDemo;
 import com.facebook.drawee.backends.pipeline.Fresco;
@@ -70,7 +71,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(MainActivity.this, RecyclerViewDemoActivity.class));
                 break;
             case R.id.webview_demo:
-                startActivity(new Intent(MainActivity.this ,WebViewDemo.class));
+                //startActivity(new Intent(MainActivity.this ,WebViewDemo.class));
+                startActivity(new Intent(MainActivity.this, TestGsonActivity.class));
                 break;
         }
 
